@@ -34,3 +34,265 @@ a {
 ul {
   list-style: none;
 }
+.w-6 {
+  width: 1.2rem;
+}
+
+.header_title_tag {
+  font-size: 2rem;
+}
+.header_title_tag > span {
+  background-color: var(--colo-primary-1);
+  color: var(--color-white);
+  padding: 0.3rem;
+  margin-right: 0.1rem;
+}
+
+/* nav */
+.nav {
+  width: 100%;
+  height: 6rem;
+  background-color: var(--colo-primary-2);
+}
+.nav_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_list {
+  display: flex;
+}
+.nav_item {
+  margin: 0rem 0.4rem;
+}
+.nav_link {
+  font-size: 1.4rem;
+  color: var(--colo-dark-1);
+  padding: 0.5rem;
+}
+.logo {
+  font-size: 2.2rem;
+}
+.logo_bg {
+  color: var(--color-white);
+  background-color: var(--colo-primary-1);
+  padding: 0.3rem;
+}
+.logo_2 {
+  font-size: 1.8rem;
+  margin-left: 0.3rem;
+}
+.logo_dot {
+  color: var(--colo-primary-1);
+}
+/* header */
+.header {
+  width: 100%;
+  padding: 8rem 0rem;
+  background-color: var(--colo-primary-3);
+}
+.header_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.feature_card {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+.feature_card_bg {
+  background-color: var(--color-white);
+  padding: 2rem;
+}
+.feature_card_img {
+  max-width: 50%;
+  border-radius: 0.5rem;
+}
+
+.card_author_img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 10rem;
+  object-fit: cover;
+}
+.feature_card_body {
+  margin-left: 1rem;
+}
+.card_category {
+  font-size: 1rem;
+  background-color: var(--colo-primary-3);
+  color: var(--colo-primary-1);
+  width: 6rem;
+  padding: 0.3rem;
+}
+.feature_card_title {
+  font-size: 2.2rem;
+}
+.card_details {
+  display: flex;
+  margin: 1rem 0rem;
+}
+.card_author {
+  display: flex;
+  align-items: center;
+}
+.card_author_name {
+  margin-left: 0.5rem;
+  font-size: 1.1rem;
+}
+.card_date {
+  margin-left: 0.3rem;
+}
+.card_date_post {
+  font-size: 1.1rem;
+  margin-left: 0.5rem;
+}
+
+.header_sidebar {
+  border-left: 1px solid #a3a3a3;
+  padding: 0rem 2rem;
+}
+.popular_card_title {
+  font-size: 1.2rem;
+}
+
+/* main */
+.main {
+  padding: 8rem 0rem;
+}
+.main_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.main_cards {
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-gap: 3rem;
+}
+.card_img {
+  width: 100%;
+  height: 23rem;
+  object-fit: cover;
+  margin-bottom: 3rem;
+}
+.main_sidebar {
+  padding: 0rem 2rem;
+}
+
+.author {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.author_img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 10rem;
+  object-fit: cover;
+}
+
+.author_social_icon {
+  width: 1.6rem;
+  margin-right: 1rem;
+}
+.author_body {
+  margin-left: 2rem;
+}
+.author_designation {
+  font-size: 1.2rem;
+  margin: 1rem 0rem;
+}
+.sidebar_categories {
+  margin-top: 5rem;
+}
+.categories {
+  margin-top: 2rem;
+}
+.category {
+  border-bottom: 1px dotted var(--colo-dark-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+.sidebar_updates {
+  margin-top: 5rem;
+}
+.updates {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+.update {
+  background-color: var(--colo-primary-2);
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 0.6rem;
+}
+.update_number {
+  color: var(--colo-primary-1);
+}
+
+.sidebar_instagram {
+  margin-top: 5rem;
+}
+.posts {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-gap: 0.5rem;
+  margin-top: 4rem;
+}
+.post {
+  width: 100%;
+  height: 10rem;
+  background-color: var(--colo-primary-2);
+  border-radius: 0.5rem;
+}
+.sidebar_categories {
+  margin-top: 5rem;
+}
+.tags {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  grid-gap: 0.5rem;
+  margin-top: 4rem;
+}
+.tag {
+  color: var(--colo-primary-1);
+  padding: 0.6rem 1.2rem;
+  border: 1px solid var(--colo-primary-1);
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  height: 5rem;
+  margin-top: 8rem;
+  background-color: var(--colo-primary-2);
+}
+.footer_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_text {
+  font-size: 1.3rem;
+}
