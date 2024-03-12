@@ -296,3 +296,95 @@ ul {
 .footer_text {
   font-size: 1.3rem;
 }
+
+/* write Blog Page */
+.write_blog {
+  width: 100%;
+  text-align: center;
+}
+
+.write_blog_button {
+  margin-top: 3rem;
+  border: 1px solid var(--colo-primary-1);
+  outline: none;
+  background-color: transparent;
+  padding: 1.3rem 1.7rem;
+  border-radius: 3px;
+}
+.write_blog_btn {
+  padding: 1.3rem 1.7rem;
+  color: var(--colo-primary-1);
+}
+.earn {
+  width: 100%;
+  padding: 8rem 0rem;
+}
+.earn_container {
+  width: 100%;
+  text-align: center;
+}
+
+.earn_methods {
+  margin-top: 5rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+  grid-gap: 3rem;
+}
+.earn_method_title {
+  margin-bottom: 2rem;
+}
+
+/* about us */
+.about_container {
+  width: 100%;
+  text-align: center;
+}
+
+.about_p {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.sponsor_container {
+  margin-top: 5rem;
+}
+.sponsors {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-gap: 3rem;
+}
+
+.authors {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  grid-gap: 3rem;
+}
+.author_profile {
+  width: 30%;
+}
+.author_name {
+  font-size: 2.2rem;
+}
+
+.author_posts {
+  margin: 1.5rem 0rem;
+}
+.write {
+  margin-top: 5rem;
+  width: 100%;
+}
+.write_container {
+  padding: 8rem 5rem;
+  background-color: var(--colo-primary-2);
+  text-align: center;
+}
+.write_title {
+  font-size: 2.4rem;
+}
+.write_p {
+  margin: 1.5rem 0rem;
+}
